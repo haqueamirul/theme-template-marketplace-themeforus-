@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,700i,900,900i');
+
+
+/*===================
+ DEFAULT  CSS
+=============== */
+html,
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+     font-family: 'Roboto', sans-serif;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+a,
+button {
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+}
+
+a {
+    font-size: 14px;
+}
+.px{
+	padding:80px 0px;
+}
+.ps{
+	padding:30px 0px;
+}
+.fix{
+	overflow:hidden;
+}
+
+
+
+.section-title {
+    text-align: center;
+}
+.section-title h2 {
+    color: #000;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+}
+.section-title h2:before {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #ea3e56;
+    position: absolute;
+    top: 43%;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+.section-title h2:after {
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #ea3e56;
+    position: absolute;
+    top: 43%;
+    left: 0;
+    margin: auto;
+    right: 0;
+    border-left: 6px solid #e7e7e7;
+    border-right: 5px solid #e7e7e7;
+}
+.section-title p{
+	margin: 0 200px;
+}
+/*===================
+ DEFAULT  CSS
+=============== */
+
+/* =========
+TYPOGRAPHY
+ ===========*/
+ h1{
+	font-family: 'Merriweather', serif;
+    margin-top: 0;
+	letter-spacing:3px;
+	font-weight: 700;
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3 {
+    margin-top: 0;
+	letter-spacing:2px;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 56px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 46px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 38px
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 28px
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 26px;
+}
+p {
+font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: #646786;
+  font-family: 'Roboto', sans-serif;
+}
+ 
+/* =========
+TYPOGRAPHY 
+===========*/
+
+/* =========
+TOP HEADER 
+===========*/
+.top-header {
+    height: 70px;
+    background-color: #0e8ce4;
+    display: -webkit-box;
+}
+.header-text {
+    margin: 25px 0;
+}
+.header-text p{
+	color:#fff;
+}
+.header-rifgt {
+    text-align: right;
+}
+.header-social {
+    margin: -4% 9%;
+}
+
+.header-social ul li {
+    list-style: none;
+    display: inline-block;
+	margin-left:20px;
+	
+}
+.header-social ul li a {
+    font-size: 18px;
+    display: block;
+    color: #ffffff;
+}
+.header-social ul li a:hover {
+    -webkit-transition: .7s;
+    box-shadow: 2px 3px 3px 0px;
+    border-radius: 20px;
+}
+/* =========
+TOP HEADER 
+===========*/
+
+
+/* =========
+ABOUT BG
+===========*/
+.contact-img-area {
+    background-image: url(..//img/bennar.jpg);
+    height: 300px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0e8ce4;
+}
+
+.contact-text {
+    position: absolute;
+    padding: 10% 16%;
+}
+.contact-text h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: roboto sans-serif;
+}
+/* =========
+ABOUT BG
+===========*/
+
+/* about */
+
+video.video-background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+.downloadtemplate-about-video.px {
+    height: 650px;
+    position: relative;
+    background-position: center right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.about-left {
+    box-shadow: 6px 0px 8px 0px #093d63;
+    border-radius: 50%;
+}
+.about-left img {
+    height: 350px;
+    border-radius: 2% 32% 27% 9%;
+}
+.about-right-text h2 {
+    text-transform: capitalize;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: roboto sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.about-down-text {
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+.about-up-text {
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+/* about */
+
+.map-area iframe{
+	width:100%;
+}
+/* contact */
+
+
+/* =========
+about service
+===========*/
+.downloadtemplate-about-service {
+    background: hsl(0, 0%, 95%);
+}
+.downloadtemplate-about-service-tag{
+	margin-top:20px;
+	
+}
+.downloadtemplate-about-service-tag h4 {
+    font-size: 20px;
+}
+.downloadtemplate-about-service-tag p{
+	
+}
+/* =========
+about service
+===========*/
+
+/* ABOUT YOUTUBE TUTORIAL */
+.downloadtemplate-template-tutorial-video-box {
+    border: 1px solid #0e8ce4;
+    padding: 25px;
+}
+
+/* ABOUT YOUTUBE TUTORIAL */
+
+/* DOWNLOADTEMPLATE ABOUT ADDERSS */
+.downloadtemplate-about-adderss-logo img {
+    width: 200px;
+}
+.downloadtemplate-about-adderss-text h4{
+	margin-bottom:20px;
+}
+.downloadtemplate-about-adderss-sidbar h4 {
+    font-size: 21px;
+    text-transform: capitalize;
+}
+/*  ---------------
+    CLIENT AREA CSS
+    ---------------
+*/
+.downloadtemplate-template-testimonial {
+    background-color: #f2f2f2;
+}
+.testimonial-title h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #020202;
+}
+.testimonial{
+    margin: 0 70px 20px 0;
+    text-align: center;
+    position: relative;
+}
+.testimonial:before{
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #d37602;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: -52px;
+}
+.testimonial .description {
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid #553e4e;
+    font-size: 16px;
+    color: #191818;
+    line-height: 30px;
+    position: relative;
+}
+.testimonial .description:before{
+    content: "";
+    border-top: 8px solid #d37602;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.testimonial .description:after{
+    content: "";
+    width: 19px;
+    height: 22px;
+    border: 1px solid #553e4e;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    margin-left: -2.5px;
+    position: absolute;
+    bottom: -17.5px;
+    left: 50%;
+    z-index: -1;
+    transform: rotate(45deg) translateX(-50%);
+}
+.testimonial .pic{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #d37602;
+    margin-bottom: 15px;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.testimonial .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #d37602;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+.rivew{
+
+}
+.rivew ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 13px;
+    color: #d0d01e;
+}
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    color: #736d6d;
+    text-transform: capitalize;
+}
+.owl-theme .owl-controls{ margin-top: 0; }
+.owl-theme .owl-controls .owl-page span{
+    width: 35px;
+    height: 15px;
+    background: #553e4e;
+    border-radius: 0;
+    opacity: 0.8;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.45);
+    transition: all 0.3s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #d37602;
+}
+
+@media only screen and (max-width: 479px){
+    .testimonial .description{ padding: 10px; }
+}
+/*  -------------------
+    END CLIENT AREA CSS
+    -------------------
+*/
+/* DOWNLOADTEMPLATE ABOUT ADDERSS */
